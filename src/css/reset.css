@@ -1,0 +1,87 @@
+/* Réinitialisation des styles par défaut du navigateur */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* Box-sizing pour tous les éléments */
+* {
+  box-sizing: border-box;
+}
+
+/* Styles de base pour le corps de la page et la police */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Styles de base pour les liens */
+a {
+  color: #0062cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #003c8f;
+}
+
+/* Styles de base pour les titres */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h4, h5, h6 {
+  font-size: 1em;
+}
+
+button{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none; 
+}

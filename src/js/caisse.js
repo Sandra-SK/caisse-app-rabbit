@@ -63,3 +63,27 @@ function clearTotal() {
 document.getElementById("clearTotal").addEventListener("click", () => {
     clearTotal();
 })
+
+
+
+
+
+
+
+// fonction pour afficher la date et l'heure sur l'interface
+function updateDateTime() {
+    const dateTimeElement = document.getElementById('dateTime');
+    const now = new Date();
+    const dateOptions = { 
+        weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' 
+    };
+    const timeOptions = { 
+        hour: '2-digit', minute: '2-digit', second: '2-digit' 
+    };
+    const dateString = now.toLocaleDateString('fr-FR', dateOptions);
+    const timeString = now.toLocaleTimeString('fr-FR', timeOptions);
+    dateTimeElement.textContent = `${dateString} • ${timeString}`;
+}
+
+setInterval(updateDateTime, 1000);
+updateDateTime();

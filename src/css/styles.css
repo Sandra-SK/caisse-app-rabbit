@@ -24,9 +24,12 @@ main {
     width: 90%;
     background-color: #2c2b2bc7;
     min-height: calc(100% - 62px);
-    padding: 2rem;
+    padding: 0.5rem;
     border-radius: 2px; 
     box-sizing: border-box;
+}
+h1{
+    margin-bottom: 0;
 }
 
 button:active{
@@ -36,11 +39,17 @@ button:active{
 
 /* TITLE*********************************************/
 .title{
-    
+    padding : 10px 20px;
     color: #f1e3e3;
     font-family: 'poppins', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
 }
-
+#dateTime{
+    background-color: #221d1d;
+    margin-bottom: 20px;
+    padding : 5px 20px;
+    box-shadow: #2c2b2b 0 0 5px;
+    width: 445px;   
+}
 
 
 /* PRODUCT BUTTONS*********************************************/
@@ -107,5 +116,6 @@ span{
     padding : 0 2rem;
 }
 #clearTotal:hover {
-    background-color: #030303;
+    background-color:#3b3a3a;
+
 }

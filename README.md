@@ -12,7 +12,7 @@ This project is a simple cash register system for an event. It allows users to a
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/caisse-event-rs.git
+    git clone https://git@github.com:Sandra-SK/caisse-app-rabbit.git
     ```
 
 2. Navigate to the project directory:

@@ -12,7 +12,7 @@ Ce projet est un système de caisse simple pour un événement. Il permet aux ut
 
 1. Clonez le dépôt :
     ```bash
-    git clone https://github.com/yourusername/caisse-event-rs.git
+    git clone https://git@github.com:Sandra-SK/caisse-app-rabbit.git
     ```
 
 2. Accédez au répertoire du projet :
